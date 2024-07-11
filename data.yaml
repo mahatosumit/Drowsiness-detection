@@ -1,0 +1,15 @@
+path = r'G:\SUMIT\SGCAM'
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['awake', 'drowsy']
+
+roboflow:
+  workspace: augmented-startups
+  project: drowsiness-detection-cntmz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augmented-startups/drowsiness-detection-cntmz/dataset/2
